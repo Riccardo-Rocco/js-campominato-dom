@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+}
+
+#difficulty-select {
+  margin-bottom: 20px;
+}
+
+#grid-container {
+  display: grid;
+  gap: 5px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.grid-cell {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.grid-cell.clicked {
+  background-color: #00f;
+  color: #fff;
+}
+
+.grid-cell.bomb {
+  background-color: #f00;
+  color: #fff;
+}
